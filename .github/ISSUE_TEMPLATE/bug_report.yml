@@ -1,0 +1,51 @@
+name: Report a bug
+description: Tell us what went wrong so we can investigate.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve fidget. Please search existing issues first.
+        This report is public. Do not include licence keys, receipts or personal information. For private support, email support@tryfidget.app.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what you expected and what actually happened. Name the toy if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: List the steps. If it only happened once, say so.
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: fidget version
+      description: Find it in fidget Settings. If the app will not open, say so.
+    validations:
+      required: true
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: Find it in Apple menu → About This Mac.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Mac and input device
+      description: Mac model and whether you use its built-in trackpad, an external trackpad or a mouse. No serial numbers needed.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Anything else?
+      description: Optional screenshots or recordings can help. Hide personal information before attaching them.
+    validations:
+      required: false

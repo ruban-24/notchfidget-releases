@@ -1,0 +1,30 @@
+name: Suggest a toy or game
+description: What would you love to play or feel on your trackpad?
+title: "[Idea]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing ideas first; add a reaction or comment if someone has already suggested yours.
+        Ideas are welcome, but submission does not guarantee a toy will be built.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's the idea?
+      description: Describe the toy or game and what makes it fun.
+    validations:
+      required: true
+  - type: textarea
+    id: interaction
+    attributes:
+      label: How would you play it?
+      description: Think about sliding, tapping, pressing or holding on the trackpad. What should it feel like?
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References or sketches
+      description: Optional links or sketches to explain the idea. Please only attach work you have permission to share.
+    validations:
+      required: false

@@ -1,0 +1,23 @@
+name: Share feedback
+description: Tell us what you enjoy or what could feel better.
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Honest feedback is welcome, including criticism.
+        This is public. For licence, purchase or private support, email support@tryfidget.app instead.
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's on your mind?
+      description: What feels good, what feels awkward, or what would you change?
+    validations:
+      required: true
+  - type: input
+    id: context
+    attributes:
+      label: Relevant toy, app version or Mac
+      description: Optional context, especially if your feedback is about haptics or controls.
+    validations:
+      required: false

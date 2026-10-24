@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Licence, purchase or private support
+    url: mailto:support@tryfidget.app
+    about: Please keep licence keys and payment details out of public issues.
+  - name: Recover your Arcade Pass key
+    url: https://polar.sh/notchfidget/portal
+    about: Use the email address you bought with.
